@@ -1,0 +1,27 @@
+{
+  "printers": [
+    {
+      "in_ep": "111",
+      "name": null,
+      "timeout": 0,
+      "port": 9100,
+      "address": "",
+      "out_ep": "222",
+      "type": "usb",
+      "idProduct": 2603,
+      "idVendor": 32903
+    },
+    {
+      "in_ep": "",
+      "name": "printer1",
+      "out_ep": "",
+      "port": 9100,
+      "address": "192.168.123.100",
+      "timeout": 0,
+      "type": "network",
+      "idProduct": 2,
+      "idVendor": 1
+    }
+  ],
+  "topic": "prod/printer"
+}
